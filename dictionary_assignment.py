@@ -29,7 +29,7 @@ bura_dictionary = {
 }
 # List of languages
 dictionaries = {'nupe': nupe_dictionary,
-                'hausa': bura_dictionary
+                'bura': bura_dictionary
                 }
 while True:
     language = input('Choose language (bura/nupe) or type exit to quit: ').lower()
