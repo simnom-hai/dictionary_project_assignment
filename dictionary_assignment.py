@@ -25,6 +25,26 @@ nupe_dictionary = {
 }
 # Miriam Kwajaffa (BURA)
 bura_dictionary = {
+  'husband': 'biyi',
+    'basket': 'makha',
+    'know': 'gi',
+    'yam': 'hir',
+    'red': 'nuyi',
+    'blue': 'dere',
+    'wife': 'ritki',
+    'thanks': 'godo',
+    'good': 'kici',
+    'father': 'lau',
+    'house': 'wura',
+    'green': 'sarata',
+    'tired': 'ibe',
+    'hungry': 'kirba',
+    'female': 'dawa',
+    'relative': 'gimi',
+    'hello': 'bado',
+    'cough': 'rimda',
+    'blind': 'baha',
+    'yellow': 'palam',   
 
 }
 # List of languages
