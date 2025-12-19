@@ -1,6 +1,7 @@
-# hai_simnom NUPE DICTIONARY
+# GROUP DICTIONARY PROJECT
 print('Welcome to our dictionary')
-dictionary = {
+# Simnom Hai (NUPE)
+nupe_dictionary = {
     'husband': 'eba',
     'basket': 'kansa',
     'know': 'kpe',
@@ -22,8 +23,29 @@ dictionary = {
     'blind': 'yebonci',
     'yellow': 'yaran',
 }
-word = input('Enter an English word: ').lower()
-if word in dictionary:
-    print('Translation:', dictionary[word])
-else:
-    print('Sorry, word not found')
+# Miriam Kwajaffa (BURA)
+bura_dictionary = {
+
+}
+# List of languages
+dictionaries = {'nupe': nupe_dictionary,
+                'hausa': bura_dictionary
+                }
+while True:
+    language = input('Choose language (bura/nupe) or type exit to quit: ').lower()
+
+    if language == 'exit':
+        print('Goodbye')
+        break
+
+    if language in dictionaries:
+        word = input('Enter an English word: ').lower()
+        selected_dict = dictionaries[language]
+
+        if word in selected_dict:
+            print('The translation is:', selected_dict[word])
+        else:
+            print('Sorry, word not found in the', language, 'dictionary')
+            print('Pls try again')
+    else:
+        print('Language not available, pls try again')
